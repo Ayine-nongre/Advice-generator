@@ -31,7 +31,7 @@ main{
     margin: -30px auto 150px;
 }
 
-.dice:over{
+#dice:hover{
     box-shadow: 0 0 40px hsl(150, 100%, 66%);
 }
 
