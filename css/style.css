@@ -1,0 +1,51 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background-color: hsl(217, 19%, 24%);
+    max-width: fit-content;
+    width: 70%;
+    margin: 280px auto 0px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 20px 50px 20px;
+    color: hsl(150, 100%, 66%);
+}
+
+#divider{
+    width: 90%;
+}
+
+#dice{
+    background-color: hsl(150, 100%, 66%);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 50%;
+    margin: -30px auto;
+}
+
+.dice:over{
+    box-shadow: 0 0 40px hsl(150, 100%, 66%);
+}
+
+#quote{
+    font-size: 28px;
+}
+
+p{
+    font-size: 12px;
+}
+
+@media (min-width: 580px) {
+    .container{
+        width: 35%;
+        margin-top: 220px;
+    }
+}
+
