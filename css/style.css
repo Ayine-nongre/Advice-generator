@@ -5,6 +5,13 @@ body{
 main{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
 }
 
 .container{
@@ -12,7 +19,8 @@ main{
     max-width: fit-content;
     width: 70%;
     height: fit-content;
-    margin: 150px auto 0px;
+    margin:  auto ;
+    margin-bottom: 0px;
     border-radius: 20px;
     text-align: center;
     padding: 20px 20px 50px 20px;
@@ -28,7 +36,8 @@ main{
     width: fit-content;
     padding: 15px;
     border-radius: 50%;
-    margin: -30px auto 150px;
+    margin: auto;
+    margin-top: -30px;
 }
 
 #dice:hover{
@@ -46,7 +55,8 @@ p{
 @media (min-width: 580px) {
     .container{
         width: 35%;
-        margin-top: 220px;
     }
+
+   
 }
 
